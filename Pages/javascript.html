@@ -2,27 +2,57 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Tanári belépés</title>
+    <title>Teacher Login</title>
     <link rel="stylesheet" href="/styles/textstyles.css">
     <style>
-        body{
-            margin: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        header, footer {
-        padding: 10px;
-        text-align: center;
-        }
+      body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #666;
+    color: white;
+}
 
-        main {
-            flex: 1;
-            display: flex;
-            justify-content: center;
-            align-items: center; 
-        }
+/* FEJLÉC */
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+/* LOGIN DOBOZ */
+.login-container {
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+footer a {
+    color: orange;
+    margin: 0 10px;
+    text-decoration: none;
+}
     </style>
 </head>
 <body>
